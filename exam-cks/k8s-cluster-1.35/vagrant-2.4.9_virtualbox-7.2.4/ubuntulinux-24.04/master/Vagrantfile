@@ -141,7 +141,6 @@ echo 'complete -o default -F __start_kubectl k' >>~/.bashrc
 
 echo '======== Helm 설치 ========'
 curl -O https://get.helm.sh/helm-v3.19.2-linux-amd64.tar.gz
-dnf install -y tar
 tar -zxvf helm-v3.19.2-linux-amd64.tar.gz
 mv linux-amd64/helm /usr/bin/helm
 
