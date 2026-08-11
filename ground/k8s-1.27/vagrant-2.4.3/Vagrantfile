@@ -141,7 +141,7 @@ kubectl create -f https://raw.githubusercontent.com/k8s-1pro/install/main/ground
 kubectl create -f https://raw.githubusercontent.com/k8s-1pro/install/main/ground/k8s-1.27/calico-3.26.4/calico-custom.yaml
 
 echo '======== [8-4] Master에 Pod를 생성 할수 있도록 설정 ========'
-kubectl taint nodes k8s-master node-role.kubernetes.io/control-plane-
+#kubectl taint nodes k8s-master node-role.kubernetes.io/control-plane-
 
 
 echo '======== [9] 쿠버네티스 편의기능 설치 ========'
